@@ -5,6 +5,7 @@ import MainProgram.DBconn;
 import Model.Turnamen;
 import java.sql.*;
 import static org.junit.Assert.*;
+import Model.Tim;
 
 public class UnitTest {
     @Test
@@ -26,6 +27,11 @@ public class UnitTest {
     public void testPesertaTurnamen(){
         Turnamen turnamenTest = new Turnamen("Nama", "peserta");
         assertEquals("peserta", turnamenTest.getPeserta());
+    }
+    @Test
+    public void testNamaTim(){
+        Tim timTest = new Tim("Nama", "profil", 10);
+        assertEquals("Nama", timTest.getNamaTim());
     }
     
 }
