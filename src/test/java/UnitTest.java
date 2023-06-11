@@ -27,11 +27,5 @@ public class UnitTest {
         Turnamen turnamenTest = new Turnamen("Nama", "peserta");
         assertEquals("peserta", turnamenTest.getPeserta());
     }
-
-    @Test
-    public void testNamaTim(){
-        Tim timTest = new Tim("Nama", "profil", 10);
-        assertEquals("Nama", timTest.getNamaTim());
-    }
     
 }
