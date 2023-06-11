@@ -8,4 +8,5 @@ public class Driver6PM {
         LoginController controlLogin = new LoginController(menuLogin);
         menuLogin.setVisible(true);
     }
+    
 }
